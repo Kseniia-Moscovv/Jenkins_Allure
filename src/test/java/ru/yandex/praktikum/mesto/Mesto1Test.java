@@ -1,3 +1,5 @@
+package ru.yandex.praktikum.mesto;
+
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
@@ -10,7 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class Mesto1Test {
 
-    String bearerToken = "сюда_впиши_свой_токен";
+    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2M5NDAyZjQ0YzhkNTAwM2QwMjI3MjciLCJpYXQiOjE2ODAyNzc2NDcsImV4cCI6MTY4MDg4MjQ0N30.h3BRe9ntvWV03ACMV9OmbGjtRc2Iu5P00IW8NFYSEUU";
 
     @Before
     public void setUp() {
